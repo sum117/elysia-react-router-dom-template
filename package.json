@@ -1,0 +1,23 @@
+{
+  "name": "elysia-react-router-dom",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "preview": "turbo run build && turbo run dev --scope=\"backend\"",
+    "build": "turbo run build",
+    "format": "prettier --write ."
+  },
+  "workspaces": [
+    "apps/backend",
+    "apps/frontend"
+  ],
+  "devDependencies": {
+    "bun-types": "latest",
+    "prettier": "^3.0.3",
+    "turbo": "^1.10.15"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
