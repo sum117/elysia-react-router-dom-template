@@ -2,7 +2,7 @@
   "name": "backend",
   "module": "index.ts",
   "type": "module",
-  "scripts": { "dev": "bun --hot index.ts"},
+  "scripts": { "dev": "bun --hot index.ts" },
   "devDependencies": {
     "bun-types": "latest"
   },
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@elysiajs/html": "^0.7.0",
+    "@elysiajs/static": "^0.7.1",
     "elysia": "^0.7.15"
   }
 }
